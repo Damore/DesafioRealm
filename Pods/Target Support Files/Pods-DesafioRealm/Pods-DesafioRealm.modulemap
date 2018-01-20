@@ -1,0 +1,6 @@
+framework module Pods_DesafioRealm {
+  umbrella header "Pods-DesafioRealm-umbrella.h"
+
+  export *
+  module * { export * }
+}

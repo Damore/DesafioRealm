@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4143C8A06F173FBC8472047C /* Pods_DesafioRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AFC9452DF72B5BBD4CC677 /* Pods_DesafioRealm.framework */; };
+		4322F43B2012C4EF00E79D68 /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4322F43A2012C4EF00E79D68 /* MapaViewController.swift */; };
 		437C64DB2012B2BC003C7CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C64DA2012B2BC003C7CAD /* AppDelegate.swift */; };
-		437C64DD2012B2BC003C7CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437C64DC2012B2BC003C7CAD /* ViewController.swift */; };
 		437C64E02012B2BC003C7CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437C64DE2012B2BC003C7CAD /* Main.storyboard */; };
 		437C64E22012B2BC003C7CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437C64E12012B2BC003C7CAD /* Assets.xcassets */; };
 		437C64E52012B2BC003C7CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437C64E32012B2BC003C7CAD /* LaunchScreen.storyboard */; };
+		43889D732012B3FB00BAFE06 /* PaisesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43889D722012B3FB00BAFE06 /* PaisesTableViewController.swift */; };
+		43889D752012B44000BAFE06 /* Pais.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43889D742012B44000BAFE06 /* Pais.swift */; };
+		43889D772012B66600BAFE06 /* paises.json in Resources */ = {isa = PBXBuildFile; fileRef = 43889D762012B66600BAFE06 /* paises.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A9E75E72479FD5A971C28C0 /* Pods-DesafioRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesafioRealm/Pods-DesafioRealm.release.xcconfig"; sourceTree = "<group>"; };
+		4322F43A2012C4EF00E79D68 /* MapaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
 		437C64D72012B2BC003C7CAD /* DesafioRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		437C64DA2012B2BC003C7CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		437C64DC2012B2BC003C7CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		437C64DF2012B2BC003C7CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		437C64E12012B2BC003C7CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		437C64E42012B2BC003C7CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		437C64E62012B2BC003C7CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43889D722012B3FB00BAFE06 /* PaisesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaisesTableViewController.swift; sourceTree = "<group>"; };
+		43889D742012B44000BAFE06 /* Pais.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pais.swift; sourceTree = "<group>"; };
+		43889D762012B66600BAFE06 /* paises.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = paises.json; sourceTree = "<group>"; };
+		58501F134BC58CF252B73A79 /* Pods-DesafioRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesafioRealm/Pods-DesafioRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		84AFC9452DF72B5BBD4CC677 /* Pods_DesafioRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4143C8A06F173FBC8472047C /* Pods_DesafioRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				437C64D92012B2BC003C7CAD /* DesafioRealm */,
 				437C64D82012B2BC003C7CAD /* Products */,
+				44F5258FAD39F3D0501D8D86 /* Pods */,
+				EA57A03EF47146551FAADAE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +67,34 @@
 		437C64D92012B2BC003C7CAD /* DesafioRealm */ = {
 			isa = PBXGroup;
 			children = (
+				43889D762012B66600BAFE06 /* paises.json */,
 				437C64DA2012B2BC003C7CAD /* AppDelegate.swift */,
-				437C64DC2012B2BC003C7CAD /* ViewController.swift */,
 				437C64DE2012B2BC003C7CAD /* Main.storyboard */,
 				437C64E12012B2BC003C7CAD /* Assets.xcassets */,
 				437C64E32012B2BC003C7CAD /* LaunchScreen.storyboard */,
 				437C64E62012B2BC003C7CAD /* Info.plist */,
+				43889D742012B44000BAFE06 /* Pais.swift */,
+				4322F43A2012C4EF00E79D68 /* MapaViewController.swift */,
+				43889D722012B3FB00BAFE06 /* PaisesTableViewController.swift */,
 			);
 			path = DesafioRealm;
+			sourceTree = "<group>";
+		};
+		44F5258FAD39F3D0501D8D86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58501F134BC58CF252B73A79 /* Pods-DesafioRealm.debug.xcconfig */,
+				0A9E75E72479FD5A971C28C0 /* Pods-DesafioRealm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA57A03EF47146551FAADAE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84AFC9452DF72B5BBD4CC677 /* Pods_DesafioRealm.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 437C64E92012B2BC003C7CAD /* Build configuration list for PBXNativeTarget "DesafioRealm" */;
 			buildPhases = (
+				AE35FBD0FCCC2E477EDD48E6 /* [CP] Check Pods Manifest.lock */,
 				437C64D32012B2BC003C7CAD /* Sources */,
 				437C64D42012B2BC003C7CAD /* Frameworks */,
 				437C64D52012B2BC003C7CAD /* Resources */,
+				DC387A02006E875E657D6038 /* [CP] Embed Pods Frameworks */,
+				A2B57A14E52494C70934505D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43889D772012B66600BAFE06 /* paises.json in Resources */,
 				437C64E52012B2BC003C7CAD /* LaunchScreen.storyboard in Resources */,
 				437C64E22012B2BC003C7CAD /* Assets.xcassets in Resources */,
 				437C64E02012B2BC003C7CAD /* Main.storyboard in Resources */,
@@ -131,13 +168,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A2B57A14E52494C70934505D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesafioRealm/Pods-DesafioRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE35FBD0FCCC2E477EDD48E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC387A02006E875E657D6038 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DesafioRealm/Pods-DesafioRealm-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesafioRealm/Pods-DesafioRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		437C64D32012B2BC003C7CAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				437C64DD2012B2BC003C7CAD /* ViewController.swift in Sources */,
+				43889D732012B3FB00BAFE06 /* PaisesTableViewController.swift in Sources */,
+				4322F43B2012C4EF00E79D68 /* MapaViewController.swift in Sources */,
 				437C64DB2012B2BC003C7CAD /* AppDelegate.swift in Sources */,
+				43889D752012B44000BAFE06 /* Pais.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +367,7 @@
 		};
 		437C64EA2012B2BC003C7CAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58501F134BC58CF252B73A79 /* Pods-DesafioRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +382,7 @@
 		};
 		437C64EB2012B2BC003C7CAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A9E75E72479FD5A971C28C0 /* Pods-DesafioRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
